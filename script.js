@@ -45,7 +45,13 @@ const Game = {
         statusValue: document.getElementById('game-highscore-value'),
         nextFruitImg: document.getElementById('game-next-fruit'),
         previewBall: null,
+
     },
+    init: function () {
+        //  this.elements.nextFruitImg.src = './assets/copter12.png'; // Set the initial "next fruit"
+
+    },
+
     cache: { highscore: 0 },
     sounds: {
         click: new Audio('./assets/click.mp3'),
@@ -95,7 +101,7 @@ const Game = {
     nextFruitSize: 0,
     setNextFruitSize: function () {
         Game.nextFruitSize = Math.floor(rand() * 5);
-        Game.elements.nextFruitImg.src = `./assets/img/circle${Game.nextFruitSize}.png`;
+        Game.elements.nextFruitImg.src = `./assets/copter${Game.nextFruitSize}.png`;
         console.log("next fruit size", Game.nextFruitSize);
     },
 
