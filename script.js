@@ -78,17 +78,17 @@ const Game = {
     },
 
     fruitSizes: [
-        { radius: 24, scoreValue: 1, img: './assets/apple.png' },
-        { radius: 32, scoreValue: 3, img: './assets/apple.png' },
-        { radius: 40, scoreValue: 6, img: './assets/apple.png' },
-        { radius: 56, scoreValue: 10, img: './assets/apple.png' },
-        { radius: 64, scoreValue: 15, img: './assets/apple.png' },
+        { radius: 24, scoreValue: 1, img: './assets/copter7.png' },
+        { radius: 32, scoreValue: 3, img: './assets/copter9.png' },
+        { radius: 40, scoreValue: 6, img: './assets/copter10.png' },
+        { radius: 56, scoreValue: 10, img: './assets/copter11.png' },
+        { radius: 64, scoreValue: 15, img: './assets/copter8.png' },
         { radius: 72, scoreValue: 21, img: './assets/copter1.png' },
         { radius: 84, scoreValue: 28, img: './assets/copter2.png' },
         { radius: 96, scoreValue: 36, img: './assets/copter3.png' },
         { radius: 128, scoreValue: 45, img: './assets/copter4.png' },
         { radius: 160, scoreValue: 55, img: './assets/copter5.png' },
-        { radius: 192, scoreValue: 66, img: './assets/copter5.png' },
+        { radius: 192, scoreValue: 66, img: './assets/copter6.png' },
 
     ],
     currentFruitSize: 0,
